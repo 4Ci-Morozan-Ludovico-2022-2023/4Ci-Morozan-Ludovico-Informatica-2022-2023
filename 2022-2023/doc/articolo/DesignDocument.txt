@@ -3,10 +3,10 @@ Design Document: The VenditaArticolo Class
 ----------------------------------------------------------------------------------
 Method 			Visibility 			Purpose				
 
-start				public			Chiamando altri metodi permette la vendita
+start			public			Chiamando altri metodi permette la vendita
 								di un articolo
 
-itemSell	 		private			Metodo della classe venditaArticolo che conta
+itemSell	 	private			Metodo della classe venditaArticolo che conta
 								gli acquisti effettuati
 
 describeProgram		private			Visualizza una breve descrizione del
@@ -15,5 +15,5 @@ describeProgram		private			Visualizza una breve descrizione del
 displayOutput		private			Visualizza il risultato mensile e totale
 								pagamenti
 
-getInput 			private			Usa Scanner per ottenere tre input:
+getInput 		private			Usa Scanner per ottenere tre input:
 								nome, sconto e prezzo
