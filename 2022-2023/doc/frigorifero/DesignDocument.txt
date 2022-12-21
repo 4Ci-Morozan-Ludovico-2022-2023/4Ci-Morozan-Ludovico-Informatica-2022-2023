@@ -1,7 +1,7 @@
 ----------------------------------------------------------------------------------
 Design Document: The Frigorifero Class
 ----------------------------------------------------------------------------------
-Method 			         Visibility 			    Purpose				
+Method               Visibility 			    Purpose				
 
 Frigorifero          public               imposta un oggetto frigorifero con determinati valori
 
@@ -50,6 +50,6 @@ toString             public               stampa le caratteristiche del frigorif
 ----------------------------------------------------------------------------------
 Design Document: The FrigoriferoTest Class
 ----------------------------------------------------------------------------------
-Method 			Visibility 			Purpose				
+Method               Visibility           Purpose				
 
-main        public          esegue la classe
+main                 public               esegue la classe
