@@ -1,0 +1,71 @@
+----------------------------------------------------------------------------------
+Design Document: The Lavatrice Class
+----------------------------------------------------------------------------------
+Method 			              Visibility 			  Purpose				
+
+Lavatrice                 public            imposta un oggetto lavatrice con diversi valori
+
+accendi                   private           la lavatrice è accesa
+
+spegni                    private           la lavatrice è spenta
+
+getMarca                  private           ritorna la marca della lavatrice
+
+setMarca                  private           assegna la marca alla lavatrice
+
+getModello                private           ritorna il modello della lavatrice
+
+setModello                private           assegna il modello alla lavatrice
+
+getProgramma              private           ritorna il programma della lavatrice
+
+aumentaProgramma          private           aumenta il programma della lavatrice
+
+diminuisciProgramma       private           diminuisce il programma della lavatrice
+
+setProgramma              private           assegna il programma alla lavatrice
+
+getTemperatura            private           ritorna la temperatura della lavatrice
+
+aumentaTemperatura        private           aumenta la temperatura della lavatrice
+
+diminuisciTemperatura     private           diminuisce la temperatura della lavatrice
+
+setTemperatura            private           assegna la temperatura della lavatrice
+
+getPrezzo                 private           ritorna il prezzo della lavatrice
+
+setPrezzo                 private           assegna il prezzo della lavatrice
+
+getGiri                   private           ritorna i giri della lavatrice
+
+aumentaGiri               private           aumenta i giri della lavatrice
+
+diminuisciGiri            private           diminuisce i giri della lavatrice
+
+setGiri                   private           assegna i giri della lavatrice
+
+getKg                     private           ritorna i kg della lavatrice
+
+setKg                     private           assegna i kg della lavatrice
+
+getTempo                  private           ritorna il tempo della lavatrice
+
+aumentaTempo              private           aumenta il tempo della lavatrice
+
+diminuisciTempo           private           diminuisce il tempo della lavatrice
+
+setTempo                  private           assegna il tempo della lavatrice
+
+toString                  public            stampa tutte le caratteristiche della lavatrice
+
+
+
+
+
+----------------------------------------------------------------------------------
+Design Document: The LavatriceTest Class
+----------------------------------------------------------------------------------
+Method 			Visibility 			Purpose				
+
+main        public          avvia il programma
