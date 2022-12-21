@@ -1,7 +1,7 @@
 ----------------------------------------------------------------------------------
 Design Document: The Televisore Class
 ----------------------------------------------------------------------------------
-Method 			        Visibility 			Purpose				
+Method              Visibility 			Purpose				
 
 Televisore          public          imposta un oggetto televisore con determinati valori
 
