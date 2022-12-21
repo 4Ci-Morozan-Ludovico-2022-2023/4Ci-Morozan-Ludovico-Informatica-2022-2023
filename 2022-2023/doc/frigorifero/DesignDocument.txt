@@ -1,7 +1,7 @@
 ----------------------------------------------------------------------------------
 Design Document: The Frigorifero Class
 ----------------------------------------------------------------------------------
-Method               Visibility 			    Purpose				
+Method               Visibility           Purpose				
 
 Frigorifero          public               imposta un oggetto frigorifero con determinati valori
 
