@@ -1,0 +1,56 @@
+----------------------------------------------------------------------------------
+Design Document: The Televisore Class
+----------------------------------------------------------------------------------
+Method 			        Visibility 			Purpose				
+
+Televisore          public          imposta un oggetto televisore con determinati valori
+
+accendi             private         accende il televisore
+
+spegni              private         spegne il televisore
+
+getPollici          private         ritorna i pollici del televisore
+
+setPollici          private         assgna i pollici del televisore
+  
+getColore           private         ritorna il colore del televisore
+
+setColore           private         assegna il colore del televisore
+
+getCanale           private         ritorna il canale del televisore
+
+aumentaCanale       private         aumenta il canale del televisore
+
+diminuisciCanale    private         diminuisce il canale del televisore
+
+setCanale           private         assegna il canale del televisore
+
+getVolume           private         ritorna il volume del televisore
+
+aumentaVolume       private         aumenta il volume del televisore
+
+diminuisciVolume    private         diminuisce il volume del televisore
+
+setVolume           private         assegna il volume del televisore
+
+getLuminos          private         ritorna la luminosità del televisore
+
+aumentaLuminos      private         aumenta la luminosità del televisore
+
+diminuisciLuminos   private         diminuisce la luminosità del televisore
+
+setLuminos          private         assegna la luminosità del televisore
+
+toString            public          stampa le caratteristiche del televisore
+
+
+
+
+
+
+----------------------------------------------------------------------------------
+Design Document: The TelevisoreTest Class
+----------------------------------------------------------------------------------
+Method 			Visibility 			Purpose				
+
+main        public          esegue la classe
