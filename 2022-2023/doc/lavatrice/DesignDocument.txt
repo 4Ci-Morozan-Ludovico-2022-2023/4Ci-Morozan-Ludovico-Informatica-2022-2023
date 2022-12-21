@@ -1,7 +1,7 @@
 ----------------------------------------------------------------------------------
 Design Document: The Lavatrice Class
 ----------------------------------------------------------------------------------
-Method 			              Visibility 			  Purpose				
+Method                    Visibility        Purpose				
 
 Lavatrice                 public            imposta un oggetto lavatrice con diversi valori
 
@@ -66,6 +66,6 @@ toString                  public            stampa tutte le caratteristiche dell
 ----------------------------------------------------------------------------------
 Design Document: The LavatriceTest Class
 ----------------------------------------------------------------------------------
-Method 			Visibility 			Purpose				
+Method 		              Visibility 			    Purpose				
 
-main        public          avvia il programma
+main                    public              avvia il programma
