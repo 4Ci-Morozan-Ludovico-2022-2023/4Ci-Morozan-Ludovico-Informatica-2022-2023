@@ -51,6 +51,6 @@ toString            public          stampa le caratteristiche del televisore
 ----------------------------------------------------------------------------------
 Design Document: The TelevisoreTest Class
 ----------------------------------------------------------------------------------
-Method              Visibility 			Purpose				
+Method              Visibility      Purpose				
 
 main                public          esegue la classe
