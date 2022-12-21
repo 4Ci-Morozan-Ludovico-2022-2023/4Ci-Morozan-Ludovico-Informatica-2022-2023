@@ -1,0 +1,55 @@
+----------------------------------------------------------------------------------
+Design Document: The Frigorifero Class
+----------------------------------------------------------------------------------
+Method 			         Visibility 			    Purpose				
+
+Frigorifero          public               imposta un oggetto frigorifero con determinati valori
+
+accendi              private              accende il frigorifero
+
+spegni               private              spegne il frigorifero
+
+getMarca             private              ritorna la marca del frigorifero
+
+setMarca             private              assegna la marca del frigorifero
+
+getModello           private              ritorna il modello del frigorifero
+
+setModello           private              assegna il modello del frigorifero
+
+getlitriFrigo        private              ritorna i litri del frigorifero
+
+setlitriFrigo        private              assegna i litri del frigorifero
+
+getlitriFrizer       private              ritorna i litri del Frizer
+
+setlitriFrizer       private              assegna i litri del frizer
+
+getPrezzo            private              ritorna il prezzo del frigorifero
+
+setPrezzo            private              assegna il prezzo del frigorifero
+
+getconsumokwat       private              ritorna il consumo kwat del frigorifero
+
+setconsumokwat       private              assegna il consumo kwat del frigorifero
+
+gettemperaturaFrigo  private              ritorna la temperatura del frigorifero
+
+settemperaturaFrigo  private              assegna la temperatura del frigorifero
+
+gettemperaturaFrizer private              ritorna la temperatura del frizer
+
+settemperaturaFrizer private              assegna la temperatura del frizer
+
+toString             public               stampa le caratteristiche del frigorifero
+
+
+
+
+
+----------------------------------------------------------------------------------
+Design Document: The FrigoriferoTest Class
+----------------------------------------------------------------------------------
+Method 			Visibility 			Purpose				
+
+main        public          esegue la classe
