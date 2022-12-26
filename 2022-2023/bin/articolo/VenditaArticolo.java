@@ -24,9 +24,9 @@ public class VenditaArticolo{
         articolo.setPrezzo(input.nextDouble());
     }
     public void itemSell(){
-        System.out.println("io calcolo gli acquisti");
+        System.out.println("io calcolo gli acquisti"); // da completare
     }
     public void displayOutput(){
-        System.out.println("io visualizzo i risultati");
+        System.out.println("io visualizzo i risultati"); // da completare
     }
 }
