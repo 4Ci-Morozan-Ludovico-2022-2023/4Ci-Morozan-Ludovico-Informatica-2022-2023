@@ -1,0 +1,53 @@
+--------------------------------------------------
+|                  ContatoreGas                   |
+--------------------------------------------------
+| - letturaPrecedente: double                      |
+| - letturaAttuale: double                         |
+--------------------------------------------------
+| + ContatoreGas(letturaPrecedente: double,        |
+|                   letturaAttuale: double)        |
+| + calcolaConsumo(): double                       |
+| + calcolaBolletta(): double                      |
+--------------------------------------------------
+
+La classe ContatoreGas ha i seguenti membri:
+- letturaPrecedente: la lettura del contatore del gas precedente
+- letturaAttuale: la lettura del contatore del gas attuale
+- ContatoreGas(letturaPrecedente: double, letturaAttuale: double): un costruttore che inizializza gli attributi della classe con i parametri passati come argomento
+- calcolaConsumo(): un metodo pubblico che calcola la quantità di gas consumato in metri cubi
+- calcolaBolletta(): un metodo pubblico che calcola il costo della bolletta sulla base del consumo di gas e del costo al metro cubo.
+
+
+--------------------------------------------------
+|              ContatoreGasCalculator             |
+--------------------------------------------------
+| - listaContatoriGas: List<ContatoreGas>         |
+| + COSTO_MC: double                              |
+--------------------------------------------------
+| + ContatoreGasCalculator()                      |
+| + start(): void                                 |
+| + descrizioneApp(): void                        |
+| + inputDati(): void                             |
+| + visualizzaRisultati(): void                    |
+--------------------------------------------------
+
+La classe ContatoreGasCalculator ha i seguenti membri:
+- listaContatoriGas: una lista di oggetti ContatoreGas contenente i dati relativi alle letture del contatore del gas
+- COSTO_MC: una costante double che rappresenta il costo al metro cubo del gas
+- ContatoreGasCalculator(): un costruttore che inizializza la listaContatoriGas come una nuova ArrayList
+- start(): un metodo pubblico che avvia l'applicazione, chiamando i metodi descrizioneApp, inputDati e visualizzaRisultati
+- descrizioneApp(): un metodo pubblico che mostra una descrizione dell'applicazione
+- inputDati(): un metodo pubblico che legge i dati relativi alle letture del contatore del gas da un file, inserito dall'utente, e li aggiunge alla listaContatoriGas
+- visualizzaRisultati(): un metodo pubblico che calcola il consumo di gas e il costo della bolletta per ogni oggetto ContatoreGas presente nella listaContatoriGas e ne mostra i risultati
+
+
+--------------------------------------------------
+|            ContatoreGasCalculatorTest           |
+--------------------------------------------------
+|                                                |
+--------------------------------------------------
+| + main(args: String[]): void                    |
+--------------------------------------------------
+
+La classe ContatoreGasCalculatorTest ha i seguenti membri:
+- main(args: String[]): un metodo statico pubblico che avvia l'applicazione ContatoreGasCalculator chiamando il metodo start()
